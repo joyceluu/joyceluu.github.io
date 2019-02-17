@@ -40,6 +40,15 @@
 }
 
 
+/* animated close */
+
+.close:hover {
+	transition: 2s ease-in-out;
+	animation: swirl 1s;
+}
+
+
+
 /* try animating it! */
 
 @keyframes swirl {
@@ -53,3 +62,4 @@
 		transform: rotate(360deg);
 	}
 }
+
