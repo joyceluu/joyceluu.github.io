@@ -18,6 +18,11 @@ body
 	border-radius: 50%;
 }
 
+.disclaimer
+{
+	font-size: 9px;
+}
+
 .zotty
 {
 	font-size: 18px;
