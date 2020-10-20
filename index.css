@@ -19,18 +19,13 @@ a:hover {
     padding-left: 5px;
 }
 
-.main {
-    position: relative;
-    background-color: whitesmoke;
-    width: 58%;
-    height: 50%;
-    margin: auto;
+.container {
     margin-top: 5%;
-    margin-bottom: 1%;
-    padding: 40px;
+    background-color: whitesmoke;
     font-family: 'Poppins', sans-serif;
+    padding: 40px;
+    margin-bottom: 1%;
 }
-
 
 .desc {
     width: 40%;
