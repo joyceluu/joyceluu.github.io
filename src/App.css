@@ -44,6 +44,10 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .content {
   background-color: #F5F5F5;
   width: 390px;
@@ -129,6 +133,13 @@ h1, h2 {
   padding-right: 4px;
 }
 
-a {
+.footerIcon {
   text-decoration: none;
+  color: #000;
+  transition: ease-in-out 0.5s;
+}
+
+.footerIcon:hover {
+  color: white;
+  transition: ease-in-out 0.5s;
 }
