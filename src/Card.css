@@ -1,0 +1,10 @@
+.plate {
+    background-color: #23252C;
+    display: flex;
+    justify-content: center;
+    height: 858px;
+    width: 550px;
+    margin: auto;
+    margin-top: 53px;
+    
+}

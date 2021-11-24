@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,98 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: #1C1C1C;
+  font-family: 'Inter', sans-serif;
+}
+
+.content {
+  background-color: #F5F5F5;
+  width: 390px;
+  height: 580px;
+  align-self: center;
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.headerInfo {
+  flex-direction: column;
+}
+
+h1, h2 {
+  margin: 15px 0px 0px 0px;
+}
+
+.info {
+  padding: 20px;
+}
+
+.headerInfo--title {
+  color: #ed9b0c;
+}
+
+.headerInfo--contact {
+  margin: auto;
+  padding: 15px;
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.contact--button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #fff;
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  border: 0px;
+  box-shadow: 0px 1px 1px #D1D5DB;
+  transition: ease-in-out 0.5s;
+}
+
+.contact--button:hover {
+  background-color: #1C1C1C;
+  color: white;
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+.contact--email {
+  background-color: #fff;
+  color: #1E1F26;
+}
+
+.contact--linkedin {
+  background-color: #297FE5;
+}
+
+.about {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: #4A4E74;
+}
+
+.footer {
+  background-color: #D5D4D8;
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.icon {
+  padding-right: 4px;
+}
+
+a {
+  text-decoration: none;
 }
