@@ -16,7 +16,7 @@ function Info() {
         <div className="about">
             <h2> About </h2>
             <p> Hello! I'm a software engineer and recent graduate from the <b>University of California, Irvine</b>. Previously, I've interned as a software engineer at <b>Amazon</b> twice. 
-            You can find me now at <b>TBD</b>!</p>
+            You can find me soon at <b>Stripe</b>!</p>
 
             <h2> Interests </h2>
             <p>Thrifting, baking, digital art, and more to come..
